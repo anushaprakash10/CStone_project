@@ -1,0 +1,58 @@
+--------------------------------------------------------
+--  File created - Sunday-February-04-2024   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Table STATECODE
+--------------------------------------------------------
+
+  CREATE TABLE "HR"."STATECODE" 
+   (	"STATE_CODE" VARCHAR2(26 BYTE), 
+	"STATE_NAME" VARCHAR2(128 BYTE)
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS" ;
+REM INSERTING into HR.STATECODE
+SET DEFINE OFF;
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST01','Andhra Pradesh');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST02','Arunachal Pradesh');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST03','Assam');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST04','Bihar');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST05','Chhattisgarh');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST06','Goa');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST07','Gujarat');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST08','Haryana');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST09','Himachal Pradesh');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST10','Jammu and Kashmir');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST11','Jharkhand');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST12','Karnataka');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST13','Kerala');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST14','Madhya Pradesh');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST15','Maharashtra');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST16','Manipur');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST17','Meghalaya');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST18','Mizoram');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST19','Nagaland');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST20','Odisha');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST21','Punjab');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST22','Rajasthan');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST23','Sikkim');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST24','Tamil Nadu');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST25','Telangana');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST26','Tripura');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST27','Uttarakhand');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST28','Uttar Pradesh');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST29','West Bengal');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST30','Andaman and Nicobar Islands');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST31','Chandigarh');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST32','Dadra and Nagar Haveli');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST33','Daman and Diu');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST34','Delhi');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST35','Lakshadweep');
+Insert into HR.STATECODE (STATE_CODE,STATE_NAME) values ('ST36','Puducherry');
+--------------------------------------------------------
+--  Constraints for Table STATECODE
+--------------------------------------------------------
+
+  ALTER TABLE "HR"."STATECODE" MODIFY ("STATE_CODE" NOT NULL ENABLE);

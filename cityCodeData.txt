@@ -1,0 +1,52 @@
+--------------------------------------------------------
+--  File created - Sunday-February-04-2024   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Table CITYCODE
+--------------------------------------------------------
+
+  CREATE TABLE "HR"."CITYCODE" 
+   (	"CITY_CODE" VARCHAR2(26 BYTE), 
+	"STATE_CODE" VARCHAR2(26 BYTE), 
+	"CITY_NAME" VARCHAR2(26 BYTE)
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "USERS" ;
+REM INSERTING into HR.CITYCODE
+SET DEFINE OFF;
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT01','ST15','Mumbai');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT02','ST15','Pune');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT03','ST24','Chennai');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT04','ST24','Coimbatore');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT05','ST25','Hyderabad');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT06','ST22','Jaipur');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT07','ST13','Kochi');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT08','ST29','Kolkata');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT09','ST34','Delhi');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT10','ST12','Bangalore');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT11','ST07','Ahmedabad');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT12','ST28','Noida');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT13','ST04','Patna');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT14','ST07','Surat');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT15','ST20','Bhubaneshwar');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT16','ST23','Gangtok');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT17','ST07','Vadodara');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT18','ST21','Ludhiana');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT19','ST12','Mysore');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT20','ST28','kanpur');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT21','ST27','Dehradun');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT22','ST14','Indore');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT23','ST12','Mangalore');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT24','ST13','Thrissur');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT25','ST01','Nellore');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT26','ST15','Aurangabad');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT27','ST11','Jamshedpur');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT28','ST11','Ranchi');
+Insert into HR.CITYCODE (CITY_CODE,STATE_CODE,CITY_NAME) values ('CT29','ST24','Vellore');
+--------------------------------------------------------
+--  Constraints for Table CITYCODE
+--------------------------------------------------------
+
+  ALTER TABLE "HR"."CITYCODE" MODIFY ("CITY_CODE" NOT NULL ENABLE);
